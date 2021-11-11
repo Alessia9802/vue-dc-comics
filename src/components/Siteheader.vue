@@ -37,6 +37,7 @@ export default {};
   justify-content: space-between;
   align-items: center;
   width: 1100px;
+  height: 120px;
   margin: auto;
 }
 
