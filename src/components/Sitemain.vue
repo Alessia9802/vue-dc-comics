@@ -46,7 +46,8 @@ export default {};
 #site_main {
   background-color: #1c1c1c;
   color: white;
-  height: 200px;
+  height: 400px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #site_main p {
@@ -55,16 +56,18 @@ export default {};
   line-height: 200px;
 }
 
-.buy_comics {
+#site_main .buy_comics {
   height: 200px;
   background-color: #0282f9;
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
-.digital {
+#site_main .digital {
   display: flex;
   justify-content: center;
   align-items: center;

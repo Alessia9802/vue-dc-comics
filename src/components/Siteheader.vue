@@ -1,6 +1,6 @@
 <template>
   <div id="site_header">
-    <div class="logo">
+    <div class="logo_header">
       <img src="../assets/vue-dc-comics-1/img/dc-logo.png" alt="" />
     </div>
     <nav class="main_menu">
@@ -25,23 +25,17 @@ export default {};
 </script>
 
 <style lang="scss">
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 #site_header {
-  font-family: "Greta Sans Medium", "Greta Sans Regular";
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1100px;
+  width: 1200px;
   height: 120px;
   margin: auto;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.logo {
+.logo_header {
   width: 100px;
   height: 100px;
 }
@@ -54,5 +48,10 @@ export default {};
 .main_menu > ul li a {
   color: #464646;
   text-decoration: none;
+  :hover {
+    border-bottom: 5px solid #0282f9;
+    padding-bottom: 45px;
+    color: #0282f9;
+  }
 }
 </style>
