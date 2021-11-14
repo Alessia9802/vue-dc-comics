@@ -88,7 +88,7 @@ export default {};
   margin: auto;
   background-image: url("../assets/vue-dc-comics-1/img/footer-bg.jpg");
   background-size: cover;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .section {
@@ -120,7 +120,7 @@ h2 {
   a {
     text-decoration: none;
     color: gray;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -133,7 +133,7 @@ h2 {
   a {
     text-decoration: none;
     color: gray;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 
@@ -142,7 +142,7 @@ h2 {
   a {
     text-decoration: none;
     color: gray;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 .menu_sites > nav ul li {
@@ -150,7 +150,7 @@ h2 {
   a {
     text-decoration: none;
     color: gray;
-    font-size: 14px;
+    font-size: 13px;
   }
 }
 

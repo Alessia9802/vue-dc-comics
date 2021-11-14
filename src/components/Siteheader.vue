@@ -43,6 +43,7 @@ export default {};
 .main_menu > ul li {
   display: inline-block;
   padding: 1rem;
+  text-transform: uppercase;
 }
 
 .main_menu > ul li a {

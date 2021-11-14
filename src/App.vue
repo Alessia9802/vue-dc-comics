@@ -24,4 +24,5 @@ export default {
 <style lang="scss">
 @import "./assets/vue-dc-comics-1/scss/common.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2? family= Roboto+Condensed:wght@400;700 & display=swap");
 </style>
