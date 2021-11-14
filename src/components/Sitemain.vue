@@ -8,7 +8,7 @@
         v-bind:price="post.price"
         v-bind:title="post.series"
         v-bind:type="post.type"
-        ><!-- {{ post.thumb }}{{ post.price }}{{ post.series }}{{ post.type }} -->
+        >{{ post.thumb }}{{ post.price }}{{ post.series }}{{ post.type }}
       </blog-post>
       <img :src="key" />
       <p>{{ price }}</p>
